@@ -1,0 +1,35 @@
+{
+  "name": "cmc-wdio-testing",
+  "version": "1.0.0",
+  "description": "Cross Media Cloud - Webdriver IO - Visual Regression Testing",
+  "main": "index.js",
+  "scripts": {
+    "local": "NODE_ENV=local wdio --baseUrl=https://www.domain.local",
+    "stage": "NODE_ENV=stage wdio --baseUrl=https://stage.domain.tld",
+    "live": "NODE_ENV=live wdio --baseUrl=https://www.domain.tld"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CrossMediaCloud/CMC-WDIO-Testing.git"
+  },
+  "author": "Drivingralle",
+  "license": "GPL",
+  "homepage": "https://www.cross-media-cloud.de",
+  "devDependencies": {
+    "babel-runtime": "^6.9.0",
+    "chai": "^4.0.2",
+    "chai-webdriverio": "^0.4.3",
+    "node-notifier": "^5.1.2",
+    "selenium-standalone": "^6.15.3",
+    "selenium-webdriver": "^4.0.0-alpha.1",
+    "wdio-dot-reporter": "^5.0.0-beta.2",
+    "wdio-mocha-framework": "^0.5.13",
+    "wdio-sauce-service": "^0.4.10",
+    "wdio-screenshot": "^0.6.0",
+    "wdio-selenium-standalone-service": "^0.0.10",
+    "wdio-spec-reporter": "^0.1.5",
+    "wdio-visual-regression-service": "^0.9.0",
+    "webdriverio": "^4.13.2",
+    "wdio-screenshots-cleanup-service": "~0.0.7"
+  }
+}
